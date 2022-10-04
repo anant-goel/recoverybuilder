@@ -54,7 +54,6 @@ source build/envsetup.sh
 
 # Run the Extra Command
 $EXTRA_CMD
-rm -r /root/work/out/target/product/veux/recovery/root/system/lib64/libandroidicu.so
 # export some Basic Vars
 export ALLOW_MISSING_DEPENDENCIES=true
 export FOX_USE_TWRP_RECOVERY_IMAGE_BUILDER=1
