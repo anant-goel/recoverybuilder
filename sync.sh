@@ -46,5 +46,9 @@ git clone $DT_LINK $DT_PATH || { echo "ERROR: Failed to Clone the Device Trees!"
 # only if the Kernel Source is Specified in the Config
 [ ! -z "$KERNEL_SOURCE" ] && git clone --depth=1 --single-branch $KERNEL_SOURCE $KERNEL_PATH
 
+git clone https://github.com/anant-goel/kernel_xiaomi_veux-headers --depth=1 -b twelve kernel/xiaomi/sm6375
+git clone https://github.com/anant-goel/vendor_xiaomi_veux --depth=1 -b thirteen vendor/xiaomi/veux
+git clone https://github.com/LineageOS/android_hardware_xiaomi --depth=1 -b lineage-20 hardware/xiaomi
+
 # Exit
 exit 0
