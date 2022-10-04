@@ -18,17 +18,17 @@ task:
   container:
       image: ghcr.io/sushrut1101/docker:latest
       cpu: 8
-      memory: 20G
+      memory: 25G
 
   Checks_script:
-      - curl -sL https://raw.githubusercontent.com/anant-goel/recoverybuilder/checks.sh | bash
+      - curl -sL https://raw.githubusercontent.com/anant-goel/recoverybuilder/main/checks.sh | bash
 
   Sync_script:
-      - curl -sL https://raw.githubusercontent.com/anant-goel/recoverybuilder/sync.sh | bash
+      - curl -sL https://raw.githubusercontent.com/anant-goel/recoverybuilder/main/sync.sh | bash
 
   Build_script:
-      - curl -sL https://raw.githubusercontent.com/anant-goel/recoverybuilder/build.sh | bash
+      - curl -sL https://raw.githubusercontent.com/anant-goel/recoverybuilder/main/build.sh | bash
 
   Upload_script:
       - export TIMEOUT=43200 # Link timeout (in minutes)
-      - curl https://raw.githubusercontent.com/shashankx86/android_device_xiaomi_spes-TWRP/twrp-11/CI_script/upload.sh | bash
+      - curl https://raw.githubusercontent.com/anant-goel/recoverybuilder/main/upload.sh | bash
