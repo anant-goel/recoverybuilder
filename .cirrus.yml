@@ -12,7 +12,14 @@ on: workflow_dispatch
 #    - cron: 0 8 * * 5
 #  watch:
 #   types: [started]
-
+task:
+  name: "Recovery Build"
+  timeout_in: 120m
+  container:
+      image: ghcr.io/sushrut1101/docker:latest
+      cpu: 8
+      memory: 20G
+      
 env:
   MANIFEST: https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp.git
   MANIFEST_BRANCH: twrp-12.1
