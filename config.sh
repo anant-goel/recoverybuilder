@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Device
-export FOX_BRANCH="fox_12.0"
+export FOX_BRANCH="fox_12.1"
 export DT_LINK="https://github.com/anant-goel/orangefox_device_xiaomi_veux.git -b OF_12"
 
 export DEVICE="veux"
@@ -23,7 +23,7 @@ export SYNC_PATH="$HOME/work" # Full (absolute) path.
 export USE_CCACHE=1
 export CCACHE_SIZE="50G"
 export CCACHE_DIR="$HOME/work/.ccache"
-export J_VAL=16
+export J_VAL=8
 
 if [ ! -z "$PLATFORM" ]; then
     export KERNEL_PATH="kernel/$OEM/$PLATFORM"
