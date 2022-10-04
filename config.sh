@@ -10,7 +10,7 @@ export TARGET="recoveryimage"
 
 export OUTPUT="OrangeFox*.zip"
 
-# Kernel Source
+# Kernel Source 
 # Uncomment the next line if you want to clone a kernel source.
 #export KERNEL_SOURCE="https://gitlab.com/OrangeFox/kernel/mojito.git"
 #export PLATFORM="sm6150" # Leave it commented if you want to clone the kernel to kernel/$OEM/$DEVICE
