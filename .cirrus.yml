@@ -18,7 +18,7 @@ task:
   container:
       image: ghcr.io/sushrut1101/docker:latest
       cpu: 8
-      memory: 25G
+      memory: 31G
 
   Checks_script:
       - curl -sL https://raw.githubusercontent.com/anant-goel/recoverybuilder/main/checks.sh | bash
