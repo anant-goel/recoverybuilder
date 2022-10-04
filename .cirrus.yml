@@ -20,8 +20,8 @@ task:
       cpu: 8
       memory: 20G
 
-    Config_Script: 
-        - curl -sL https://raw.githubusercontent.com/anant-goel/recoverybuilder/main/config.sh
+  Config_Script: 
+      - curl -sL https://raw.githubusercontent.com/anant-goel/recoverybuilder/main/config.sh
         
   Checks_script:
       - curl -sL https://raw.githubusercontent.com/anant-goel/recoverybuilder/checks.sh | bash
