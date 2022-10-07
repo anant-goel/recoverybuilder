@@ -58,6 +58,9 @@ $EXTRA_CMD
 export ALLOW_MISSING_DEPENDENCIES=true
 export FOX_USE_TWRP_RECOVERY_IMAGE_BUILDER=1
 export LC_ALL="C"
+export DISABLE_ARTIFACT_PATH_REQUIREMENTS="true"
+export OF_FORCE_PREBUILT_KERNEL=1
+export TW_THEME=portrait_hdpi
 
 # Default Build Type
 if [ -z "$FOX_BUILD_TYPE" ]; then
