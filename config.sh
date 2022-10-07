@@ -1,12 +1,12 @@
 #!/bin/bash
 
 # Device
-export FOX_BRANCH="fox_12.1"
-export DT_LINK="https://github.com/anant-goel/orangefox_device_xiaomi_veux.git -b OF_12"
+export FOX_BRANCH="fox_11.0"
+export DT_LINK="https://github.com/anant-goel/orangefox_device_xiaomi_veux.git -b OF_11"
 
 export DEVICE="veux"
 export OEM="xiaomi"
-export TARGET="recovery && recoverimage"
+export TARGET="recoverimage"
 
 export OUTPUT="OrangeFox*.zip"
 
