@@ -6,7 +6,7 @@ export DT_LINK="https://github.com/anant-goel/orangefox_device_xiaomi_veux.git -
 
 export DEVICE="veux"
 export OEM="xiaomi"
-export TARGET="recovery"
+export TARGET="recovery && recoverimage"
 
 export OUTPUT="OrangeFox*.zip"
 
