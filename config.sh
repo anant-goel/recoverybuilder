@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Device
-export FOX_BRANCH="fox_11.0"
-export DT_LINK="https://github.com/anant-goel/orangefox_device_xiaomi_veux.git -b OF_11"
+export FOX_BRANCH="fox_12.0"
+export DT_LINK="https://github.com/SharmagRit/twrp-android_device_xiaomi_veux.git -b ofox"
 
 export DEVICE="veux"
 export OEM="xiaomi"
