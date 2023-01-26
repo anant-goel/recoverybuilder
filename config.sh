@@ -6,7 +6,7 @@ export DT_LINK="https://github.com/raaydown/recovery_android_xiaomi_veux.git -b 
 
 export DEVICE="veux"
 export OEM="xiaomi"
-export TARGET="recoverimage"
+export TARGET="bootimage"
 
 export OUTPUT="OrangeFox*.zip"
 
