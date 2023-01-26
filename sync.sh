@@ -41,7 +41,7 @@ fi
 
 # Clone Trees
 git clone $DT_LINK $DT_PATH || { echo "ERROR: Failed to Clone the Device Trees!" && exit 1; }
-git clone https://github.com/anant-goel/kernel_xiaomi_veux-headers --depth=1 -b twelve kernel/xiaomi/sm6375 || { echo "ERROR: Failed to Clone the Kernel Trees!" && exit 1; }
+git clone https://github.com/anant-goel/kernel_xiaomi_veux-headers --depth=1 -b lineage-19.2 kernel/xiaomi/sm6375 || { echo "ERROR: Failed to Clone the Kernel Trees!" && exit 1; }
 git clone https://github.com/anant-goel/vendor_xiaomi_veux --depth=1 -b thirteen vendor/xiaomi/veux || { echo "ERROR: Failed to Clone the Vendor Trees!" && exit 1; }
 git clone https://github.com/LineageOS/android_hardware_xiaomi --depth=1 -b lineage-20 hardware/xiaomi || { echo "ERROR: Failed to Clone the hardware Trees!" && exit 1; }
 
