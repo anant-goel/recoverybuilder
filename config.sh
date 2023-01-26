@@ -2,7 +2,7 @@
 
 # Device
 export FOX_BRANCH="fox_12.0"
-export DT_LINK="https://github.com/SharmagRit/twrp-android_device_xiaomi_veux.git -b ofox"
+export DT_LINK="https://github.com/raaydown/recovery_android_xiaomi_veux.git -b android-12.1"
 
 export DEVICE="veux"
 export OEM="xiaomi"
