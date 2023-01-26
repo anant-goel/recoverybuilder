@@ -55,7 +55,6 @@ source build/envsetup.sh
 # Run the Extra Command
 $EXTRA_CMD
 # export some Basic Vars
-export ALLOW_MISSING_DEPENDENCIES=true
 export FOX_USE_TWRP_RECOVERY_IMAGE_BUILDER=1
 export LC_ALL="C"
 export DISABLE_ARTIFACT_PATH_REQUIREMENTS="true"
